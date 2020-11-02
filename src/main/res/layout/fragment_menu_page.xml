@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coloruefa"
+    tools:context=".MenuPage">
+
+    <ImageView
+        android:id="@+id/bayerncolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bayerncolor"
+        />
+
+    <ImageView
+        android:id="@+id/bayernmuchen_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bayernmuchen"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="3dp"
+        />
+
+    <ImageView
+        android:id="@+id/realmadridcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/realmadridcolor"
+        android:layout_below="@+id/bayerncolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/realmadrid_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/realmadrid"
+        android:layout_below="@+id/bayernmuchen_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/barcelonacolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/barcelonacolor"
+        android:layout_below="@+id/realmadridcolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/barcelona_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/barcelona"
+        android:layout_below="@+id/realmadrid_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/atmadridcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/atleticomadridcolor"
+        android:layout_below="@+id/barcelonacolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/atmadrid_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/atleticomadrid"
+        android:layout_below="@+id/barcelona_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/juventuscolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/juventuscolor"
+        android:layout_below="@+id/atmadridcolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/juv_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/juventus"
+        android:layout_below="@+id/atmadrid_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/mancitycolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mancitycolor"
+        android:layout_below="@+id/juventuscolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/mancity_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/mancity"
+        android:layout_below="@+id/juv_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/psgcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/psgcolor"
+        android:layout_below="@+id/mancitycolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/psg_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/psg"
+        android:layout_below="@+id/mancity_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/manutdcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manutdcolor"
+        android:layout_below="@+id/psgcolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/manutd_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/manutd"
+        android:layout_below="@+id/psg_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/liverpoolcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/liverpoolcolor"
+        android:layout_below="@+id/manutdcolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/liverpool_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/liverpool"
+        android:layout_below="@+id/manutd_img"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/arsenalcolor_img"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arsenalcolor"
+        android:layout_below="@+id/liverpoolcolor_img"
+        />
+
+    <ImageView
+        android:id="@+id/arsenal_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/arsenal"
+        android:layout_below="@+id/liverpool_img"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>

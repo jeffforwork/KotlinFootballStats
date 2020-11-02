@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.footballstatapp.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_loginPage"
+            app:destination="@id/loginPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.example.footballstatapp.LoginPage"
+        android:label="fragment_login_page"
+        tools:layout="@layout/fragment_login_page" >
+        <action
+            android:id="@+id/action_loginPage_to_menuPage"
+            app:destination="@id/menuPage" />
+        <action
+            android:id="@+id/action_loginPage_to_createAccount"
+            app:destination="@id/createAccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuPage"
+        android:name="com.example.footballstatapp.MenuPage"
+        android:label="fragment_menu_page"
+        tools:layout="@layout/fragment_menu_page" >
+        <argument
+            android:name="userpwd"
+            app:argType="com.example.footballstatapp.userpwd" />
+        <action
+            android:id="@+id/action_menuPage_to_bayernPage"
+            app:destination="@id/bayernPage" />
+        <action
+            android:id="@+id/action_menuPage_to_realmadridPage"
+            app:destination="@id/realmadridPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccount"
+        android:name="com.example.footballstatapp.CreateAccount"
+        android:label="fragment_create_account"
+        tools:layout="@layout/fragment_create_account" />
+    <fragment
+        android:id="@+id/bayernPage"
+        android:name="com.example.footballstatapp.BayernPage"
+        android:label="fragment_bayern_page"
+        tools:layout="@layout/fragment_bayern_page" />
+    <fragment
+        android:id="@+id/realmadridPage"
+        android:name="com.example.footballstatapp.RealmadridPage"
+        android:label="RealmadridPage" />
+</navigation>

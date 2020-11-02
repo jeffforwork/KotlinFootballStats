@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BayernPage">
+
+    <ImageView
+        android:id="@+id/footballfield"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/football2"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/ST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R.Lewandowski"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/LW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D.Costa"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/RW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S.Gnabry"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/footballfield"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/AM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T.Muller"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/footballfield"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/footballfield"
+        app:layout_constraintTop_toTopOf="@+id/footballfield"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/CM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J.Goretzka"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="@+id/footballfield"
+        app:layout_constraintTop_toTopOf="@+id/footballfield"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/CM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J.Kimmich"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/DF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L.Hernandez"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="@+id/footballfield"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <TextView
+        android:id="@+id/DC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D.Alaba"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <TextView
+        android:id="@+id/DC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N.Sule"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/footballfield"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="@+id/footballfield"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <TextView
+        android:id="@+id/RB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.Pavard"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/footballfield"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <TextView
+        android:id="@+id/GK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M.Neuer"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/footballfield"
+        app:layout_constraintEnd_toEndOf="@+id/footballfield"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/footballfield"
+        app:layout_constraintTop_toTopOf="@+id/footballfield"
+        app:layout_constraintVertical_bias="0.882" />
+</androidx.constraintlayout.widget.ConstraintLayout>
